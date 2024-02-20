@@ -1,0 +1,39 @@
+/* styles.css */
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table-container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-container th,
+.table-container td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-container th {
+  border-bottom: 1px solid black;
+  background-color: #f2f2f2;
+}
+
+.table-container tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table-container tr:hover {
+  background-color: #ddd;
+}
+
+.table-container .active {
+  color: green;
+}
+
+.table-container .inactive {
+  color: red;
+}
